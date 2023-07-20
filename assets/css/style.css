@@ -15,7 +15,8 @@ body {
 /* headings and logo */
 
 #menu, #logo {
-    line-height: 75%;
+    line-height: 33%;
+    padding: 35px;
 }
 
 h1, h2 {
