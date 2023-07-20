@@ -9,4 +9,19 @@
 body {
     font-family: "Open Sans", sans-serif, Verdana;
     font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: "Montserrat", sans-serif, Verdana;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
 }
