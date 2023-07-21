@@ -147,3 +147,24 @@ h1, h2 {
     padding-bottom: 20px;
     letter-spacing: 1.75px;
 }
+
+/* footer */
+
+footer {
+    height: 100px;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+}
+
+footer i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
