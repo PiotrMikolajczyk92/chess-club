@@ -16,7 +16,7 @@ body {
 
 #menu, #logo {
     line-height: 33%;
-    padding: 35px;
+    padding: 30px;
 }
 
 h1, h2 {
@@ -148,6 +148,10 @@ h1, h2 {
     letter-spacing: 1.75px;
 }
 
+#club-ethos h4 {
+    padding: 2px;
+}
+
 /* footer */
 
 footer {
@@ -195,9 +199,17 @@ footer i {
         height: 160px;
         padding: 0;
     }
+        #menu {
+            text-align: center;
+            clear: both;
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            line-height: 25px;
+        }
 }
 
-/* for medium screen sizes from 800px and down */
+/* for medium screen sizes from 950px and down */
 
 @media screen and (max-width: 950px) {
     #club-ethos > div {
@@ -208,13 +220,18 @@ footer i {
     }
 }
 
-/* for small screen sizes from 650px down */
+/* for small screen sizes from 750px down */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
     #club-ethos > div {
         width: 100%;
         clear: both;
         height: 280px;
         padding: 0;
+    }
+
+    #logo {
+        text-align: center;
+        line-height: 150%;
     }
 }
