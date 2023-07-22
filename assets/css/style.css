@@ -194,6 +194,27 @@ footer i {
     border: 1px solid white;
 }
 
+/* timetable */
+
+table, th, td {
+    border: 1px solid;
+}
+
+table {
+    text-align: center;
+    width: 95%;
+}
+
+#timetable h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    background: #707070;
+    color: #e0e0e0;
+    width: 45%;
+    clear: both;
+}
+
 /* media queries */
 
 /* for larger to medium screens size from 1200px wide and down */
