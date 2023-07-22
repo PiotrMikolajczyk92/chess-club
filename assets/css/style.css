@@ -183,3 +183,38 @@ footer i {
     width: 100%;
     border: 1px solid white;
 }
+
+/* media queries */
+
+/* for larger to medium screens size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #club-ethos > div {
+        width: 100%;
+        clear: both;
+        height: 160px;
+        padding: 0;
+    }
+}
+
+/* for medium screen sizes from 800px and down */
+
+@media screen and (max-width: 950px) {
+    #club-ethos > div {
+        width: 100%;
+        clear: both;
+        height: 180px;
+        padding: 0;
+    }
+}
+
+/* for small screen sizes from 650px down */
+
+@media screen and (max-width: 650px) {
+    #club-ethos > div {
+        width: 100%;
+        clear: both;
+        height: 280px;
+        padding: 0;
+    }
+}
