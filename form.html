@@ -19,10 +19,10 @@
             <nav>
                 <ul id="menu">
                     <li>
-                        <a href="form.html">Join Us</a>
+                        <a href="form.html" class="active">Join Us</a>
                     </li>
                     <li>
-                        <a href="gallery.html" class="active">Gallery</a>
+                        <a href="gallery.html">Gallery</a>
                     </li>
                     <li>
                         <a href="timetable.html">Timetable</a>
@@ -34,18 +34,24 @@
             </nav>
         </a>
     </header>
-
-    <section id="photos">
-        <img src="assets/images/chess5.jpg" alt="Chess tournament">
-        <img src="assets/images/chess6.webp" alt="Kids competing in chess tournament">
-        <img src="assets/images/chess3.png" alt="Kids competing in chess tournament">
-        <img src="assets/images/chess8.webp" alt="A man playing simultaneously many games of chess at the same time">
-        <img src="assets/images/chess1.jpg" alt="Kids competing in chess tournament">
-        <img src="assets/images/chess2.webp" alt="Two men shaking hands before a game of chess">
-        <img src="assets/images/chess7.jpg" alt="Two men playing chess">
-        <img src="assets/images/chess4.jpg" alt="Adults competing in chess tournament">
+    <section class="form-section">
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Get free 3 months trial</h2>
+            <br>
+            <h4>Monthly membership for £45</h4>
+            <br>
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" type="text" name="first_name" required>
+            <br>
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" type="text" name="last_name" required>
+            <br>
+            <label class="text-input" for="email">Email Address</label>
+            <input id="email" type="email" name="email_address" required>
+            <br>
+            <input class="submit-button" type="submit" value="Join our community">
+        </form>
     </section>
-
     <footer>
         <ul>
             <li>

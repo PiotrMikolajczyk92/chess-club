@@ -9,21 +9,23 @@
 body {
     font-family: "Open Sans", sans-serif, Verdana;
     font-weight: 300;
-    color: #3a3a3a;
+    color: black;
 }
 
 /* headings and logo */
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 33%;
     padding: 30px;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: "Montserrat", sans-serif, Verdana;
     text-transform: uppercase;
     letter-spacing: 3.5px;
-    color: #252525;
+    color: black;
 }
 
 #logo {
@@ -50,11 +52,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid black;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid black;
 }
 
 /* hero image and cover text */
@@ -67,7 +69,8 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: white;
 }
 
@@ -76,7 +79,7 @@ h1, h2 {
     width: 100%;
     background: url('../images/chess-hero-image.jpg') no-repeat center center;
 
-/* animates zoom effect on oading page */
+    /* animates zoom effect on loading page */
 
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -89,6 +92,7 @@ h1, h2 {
     from {
         transform: scale(1.2);
     }
+
     to {
         transform: scale(1);
     }
@@ -111,11 +115,11 @@ h1, h2 {
     position: absolute;
 }
 
-#cover-text > h2 {
+#cover-text>h2 {
     padding: 5px;
 }
 
-#cover-text > h4 {
+#cover-text>h4 {
     padding: 2px 5px;
 }
 
@@ -196,7 +200,9 @@ footer i {
 
 /* timetable */
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid;
 }
 
@@ -207,7 +213,6 @@ table {
 
 .timetable {
     margin: 0 2px;
-    height: 
 }
 
 .timetable h2 {
@@ -230,31 +235,87 @@ table {
     height: 150px;
 }
 
+/* form */
+
+.form-section {
+    background-image: url('../images/chess-background.jpg');
+    color: white;
+    font-weight: 1200;
+    clear: left;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    opacity: 0.7;
+}
+
+
+.signup-form {
+    background-color: rgba(112, 112, 112, 0.7);
+    text-align: center;
+    position: absolute;
+    padding: 20px;
+    width: 100%;
+    max-width: 380px;
+    right: 30px;
+    height: 250px;
+}
+
+.signup-form > h2 {
+    color: white;
+}
+
+.text-input {
+    width: 50%;
+    margin: 3px 0 10px 0;
+}
+
+.text-input:hover {
+    border-color: black;
+}
+
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 7px 15px;
+    text-align: center;
+    font-size: 100%;
+    background-color: white;
+    color: black;
+}
+
+.submit-button:hover {
+    background-color: black;
+    color: white;
+}
+
+
 /* media queries */
 
 /* for larger to medium screens size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
-    #club-ethos > div {
+    #club-ethos>div {
         width: 100%;
         clear: both;
         height: 160px;
         padding: 0;
     }
-        #menu {
-            text-align: center;
-            clear: both;
-            float: left;
-            margin-left: 30px;
-            margin-bottom: 20px;
-            line-height: 25px;
-        }
+
+    #menu {
+        text-align: center;
+        clear: both;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 }
+
 
 /* for medium screen sizes from 950px and down */
 
 @media screen and (max-width: 950px) {
-    #club-ethos > div {
+    #club-ethos>div {
         width: 100%;
         clear: both;
         height: 180px;
@@ -265,7 +326,7 @@ table {
 /* for small screen sizes from 750px down */
 
 @media screen and (max-width: 750px) {
-    #club-ethos > div {
+    #club-ethos>div {
         width: 100%;
         clear: both;
         height: 280px;
@@ -276,7 +337,7 @@ table {
         line-height: 150%;
     }
 
-    #club-ethos { 
+    #club-ethos {
         width: 95%;
     }
 
