@@ -205,7 +205,12 @@ table {
     width: 95%;
 }
 
-#timetable h2 {
+.timetable {
+    margin: 0 2px;
+    height: 
+}
+
+.timetable h2 {
     text-transform: uppercase;
     text-align: center;
     padding: 20px;
@@ -213,6 +218,16 @@ table {
     color: #e0e0e0;
     width: 45%;
     clear: both;
+}
+
+#timetable-background {
+    background: #e0e0e0;
+    clear: both;
+    height: 500px;
+}
+
+table {
+    height: 150px;
 }
 
 /* media queries */
