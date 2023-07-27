@@ -209,6 +209,7 @@ td {
 table {
     text-align: center;
     width: 95%;
+    height: 150px;
 }
 
 .timetable {
@@ -232,10 +233,6 @@ table {
 
 .timetable>p {
     padding: 30px;
-}
-
-table {
-    height: 150px;
 }
 
 /* form */
@@ -351,7 +348,7 @@ table {
     }
 }
 
-/* signup form for screen sizes 450px and below */
+/* for smaller screen sizes 450px and down */
 
 @media screen and (max-width: 450px) {
 
@@ -369,4 +366,37 @@ table {
         justify-content: center;
     }
 
+    .timetable-background: {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .timetable {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .table {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        font-size: 82%;
+        border: none;
+    }
+
+    .timetable h2 {
+        width: 55%;
+    }
+
 }
+
+/* for smaller screen sizes 375px and down */
+
+@media screen and (max-width: 375px) {}
