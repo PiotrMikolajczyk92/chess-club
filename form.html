@@ -8,6 +8,10 @@
     <meta name="description" content="Portsmouth Chess Club for chess community in Portsmouth, England">
     <meta name="keywords" content="chess club, chess community, Portsmouth, England">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Portsmouth Chess Club</title>
 </head>
@@ -15,29 +19,30 @@
 <body>
     <header>
         <a href="index.html">
-            <h1 id="logo">Portsmouth Chess Club</h1></a>
-            <nav>
-                <ul id="menu">
-                    <li>
-                        <a href="form.html" class="active">Join Us</a>
-                    </li>
-                    <li>
-                        <a href="gallery.html">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="timetable.html">Timetable</a>
-                    </li>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                </ul>
-            </nav>
+            <h1 id="logo">Portsmouth Chess Club</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="form.html" class="active">Join Us</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="timetable.html">Timetable</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <section class="form-section">
-        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+        <form class="signup-form" method="GET" action="https://formdump.codeinstitute.net/">
             <h2>Get free 3 months trial</h2>
             <br>
-            <h4>Monthly membership for £45</h4>
+            <p>Monthly membership for £45</p>
             <br>
             <label for="fname">First Name</label>
             <input class="text-input" id="fname" type="text" name="first_name" required>

@@ -119,7 +119,7 @@ h2 {
     padding: 5px;
 }
 
-#cover-text>h4 {
+#cover-text>p {
     padding: 2px 5px;
 }
 
@@ -158,7 +158,7 @@ h2 {
     letter-spacing: 1.75px;
 }
 
-#club-ethos h4 {
+#club-ethos p {
     padding: 2px;
 }
 
@@ -193,7 +193,7 @@ footer i {
     border: 1px solid white;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
     border: 1px solid white;
 }
@@ -230,7 +230,7 @@ table {
     clear: both;
 }
 
-.timetable > p {
+.timetable>p {
     padding: 30px;
 }
 
@@ -262,7 +262,7 @@ table {
     height: 250px;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
     color: white;
 }
 
@@ -349,4 +349,24 @@ table {
         width: 95%;
         left: 0;
     }
+}
+
+/* signup form for screen sizes 450px and below */
+
+@media screen and (max-width: 450px) {
+
+    .form-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .signup-form {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
