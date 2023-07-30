@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
 <h1>Portsmouth Chess Club</h1>
 <p>Portsmouth Chess Club is a website for people interested in playing chess and joining its big community.</p>
 <p>Users of this website will be able to find all essential informations about the Club, address, opening times,
@@ -170,13 +161,36 @@
         <li>Accesibility
             <ul>
                 <li>
-                    I confirmed that the colors and fonts chosen are easy to read and accesible by running it through lighthouse in devtools.
+                    I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
                 </li>
                 <br>
-
+                <img src="assets/images/lighthouse.jpg" alt="A screenshot of lighthouse score for index.html">
+                <img src="assets/images/lighthouse-form.jpg" alt="A screenshot of lighthouse score for form.html">
+                <img src="assets/images/lighthouse-gallery.jpg" alt="A screenshot of lighthouse score for gallery.html">
+                <img src="assets/images/lighthouse-timetable.jpg" alt="A screenshot of lighthouse score for timetable.html">
                 <br>
             </ul>
         </li>
     </ul>
+<h1>Deployment</h1>
+    <ul>
+        <li>The site was deployed to GitHub pages. The steps to deploy are as follows:
+            <ul>
+                <li>In the GitHub repository, navigate to the Settings tab.</li>
+                <li>From the source section drop-down menu, Select the Master Branch.</li>
+                <li>Once the master branch has been selected, the page provided the link to the completed website.</li>
+            </ul>
+        </li>
+    </ul>
+    The live link can be found here - <a href="https://piotrmikolajczyk92.github.io/chess-club/index.html" target="_blank">Portsmouth Chess Club</a>
+<h1>Credits</h1>
+    <h2>Content</h2>
+        <ul>
+            <li>The content for Club Ethos section was taken from <a href="https://www.chess.com/pl/article/view/10-najwazniejszych-zalet-grania-w-szachy#:~:text=1%20%C5%81%C4%85cz%C4%85%20ludzi%202%20Ucz%C4%85%20jak%20wygrywa%C4%87%20i,8%20Pomagaj%C4%85%20rozwija%C4%87%20umiej%C4%99tno%C5%9B%C4%87%20rozwi%C4%85zywania%20problem%C3%B3w%20More%20items" target="_blank">www.chess.com/pl/</a> and translated into English.</li>
+        </ul>
+    <h2>Media</h2>
+        <ul>
+            <li>Photos used in this project were found on Google Images.</li>
+        </ul>
 </body>
 </html>
